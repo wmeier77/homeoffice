@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block title %}Start Stop{% endblock %}
+
+{% block head %}
+    {{ super() }}
+{% endblock %}
+
+{% block content %}
+    <div class="container-c2">
+        <div style="display: flex">
+            <div id="divStart" class="btn-start" onclick="onStart()">
+                <div id="divTriangle" class="triangle"></div>
+            </div>
+            <div id="divStop" class="btn-stop" onclick="onStop()">
+                <div class="square"></div>
+            </div>
+        </div>
+        <div class="div-btn">
+            <button class="btn-c" onclick="location.href='overview'">Übersicht</button>
+        </div>
+    </div>
+{% endblock %}

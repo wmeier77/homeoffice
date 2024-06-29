@@ -1,0 +1,123 @@
+.container-c {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border: 1px solid rgb(0, 0, 0 , 0.3);
+  border-radius: 5%;
+  padding: 24px;
+}
+
+.container-c2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border: 1px solid rgb(0, 0, 0 , 0.3);
+  border-radius: 5%;
+  padding: 48px;
+  padding-bottom: 24px;
+}
+
+.margin-b {
+    margin-bottom: 10px;
+}
+
+.width-l {
+    width: 100px;
+}
+
+.btn-start {
+  display:block;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid #01DF01;
+  background: white;
+  margin-right: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+
+  pointer-events: auto;
+}
+
+.btn-stop {
+  display:block;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  background: grey;
+  margin-left: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  pointer-events: none;
+}
+
+.triangle {
+   width: 0px;
+   height: 0px;
+   border-style: solid;
+   border-width: 27.5px 0 27.5px 38px;
+   border-color: transparent transparent transparent #01DF01;
+   transform: rotate(0deg);
+}
+
+.square {
+   width: 38px;
+   height: 38px;
+   background: white;
+}
+
+.div-btn {
+    margin-top: 24px;
+    width: 100%;
+}
+
+.btn-c {
+    margin: 0 auto;
+    display: block;
+}
+
+.div-ov-t {
+    width: 200px;
+    height: 30px;
+    border: 1px solid rgb(0, 0, 0, 0.3);
+    border-bottom-color: rgb(0, 0, 0, .0);
+}
+
+.div-ov-b {
+    width: 200px;
+    height: 150px;
+    border: 1px solid rgb(0, 0, 0, 0.3);
+    overflow-y: auto;
+}
+
+.div-ar {
+    display: flex;
+    flex-direction: row;
+}
+
+#arrowbox {
+    cursor: pointer;
+}
+
+.margin-b-16 {
+    margin-bottom: 16px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    width: 150px;
+}

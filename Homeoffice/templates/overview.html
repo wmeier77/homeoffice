@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block title %}Übersicht{% endblock %}
+
+{% block head %}
+    {{ super() }}
+{% endblock %}
+
+{% block content %}
+    <div class="container-c">
+        <div id="arrowbox" class="div-ar margin-b-16" onclick="location.href='./startstop';">
+			 <img src="{{ url_for('static', filename='img/left.png') }}" width="24" height="24"><p style="margin-left: 5px;">Start/Stop</p>
+		</div>
+
+        <div class="margin-b-16">
+            <label for="inInfo">Datum wählen</label>
+            <input type="date" id="inInfo" name="inInfo" value="" min="2024-01-01" max="2034-12-31" />
+        </div>
+
+        <div class="margin-b-16">
+            <button id="bntRecData" onclick="getRecordingData()">OK</button>
+        </div>
+
+        <div class="margin-b-16">
+            <div class="div-ov-t">
+                <p id="pSelectedDate" style="margin-left: 10px;"></p>
+			</div>
+			<div class="div-ov-b">
+                <ul id="ulData" style="margin-left: -20px;"></ul>
+			</div>
+        </div>
+    </div>
+{% endblock %}
