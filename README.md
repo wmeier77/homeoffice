@@ -17,6 +17,26 @@ db.createCollection("timeRecording")
 
 ```
 
+Die Datenstruktur für den Benutzer(_user_-Collection) lautet
+
+```
+{
+	"user"    : "",
+	"password": ""
+}
+```
+
+und für die Zeiterfassung(_timeRecording_-Collection)
+
+```
+{
+	"day"  : "",
+	"start": "",
+	"stop" : ""
+}
+```
+
+
 ## Backend
 
 Wie oben bereits erwähnt, wird an dieser Stelle Python eingesetzt. Hierbei wurden folgende Schritte durchgeführt
